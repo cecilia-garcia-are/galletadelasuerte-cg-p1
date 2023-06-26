@@ -5,6 +5,7 @@ import PhrasesCard  from './components/PhrasesCard'
 import phrases from './data/phrases.json'
 import { useState } from "react"
 
+
 function App() {
  
 
@@ -14,10 +15,10 @@ function App() {
   "#f9d395", "#f7b094", "#f7c954", "#f47f56", "#abcdd9", "#cca881", "#f6adcb", 
   "#9276b7", "#64abff", "#bbff97" ]
 
-  const background = ['/public/fondo1.jpg', '/public/fondo2.jpg', '/public/fondo3.jpg',
-   '/public/fondo4.jpg', '/public/fondo5.jpg', '/public/fondo6.jpg', '/public/fondo7.jpg'
-   , '/public/fondo8.jpg', '/public/fondo9.jpg', '/public/fondo10.jpg', '/public/fondo11.jpg'
-   , '/public/fondo12.jpg', '/public/fondo13.jpg', '/public/fondo14.jpg', '/public/fondo15.jpg']
+  const background = ['/img/fondo1.jpg', '/img/fondo2.jpg', '/img/fondo3.jpg',
+   '/img/fondo4.jpg', '/img/fondo5.jpg', '/img/fondo6.jpg', '/img/fondo7.jpg'
+   , '/img/fondo8.jpg', '/img/fondo9.jpg', '/img/fondo10.jpg', '/img/fondo11.jpg'
+   , '/img/fondo12.jpg', '/img/fondo13.jpg', '/img/fondo14.jpg', '/img/fondo15.jpg']
 
 
   const rechargePhrase = () => {
